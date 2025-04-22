@@ -19,12 +19,14 @@
   "Resources": [
     {
       "EndPoint": "https://hi-res-lst.azurewebsites.net",
-      "Name": "OHB Endpoint",
+      "Name": "xcube",
       "Type": "zarr",
       "StacEndpoint": "/ogc",
       "DatacubeId": "STEPBYSTEP~heilbronn-difference.levels",
       "Variable": "difference-raster-30m-lst",
-      "ColormapName": "coolwarm"
+      "ColormapName": "coolwarm",
+      "CollectionId": "",
+      "LayerId": ""
     }
   ]
 }
