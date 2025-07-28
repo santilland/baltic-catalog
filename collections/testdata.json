@@ -1,6 +1,28 @@
 {
   "Name": "testdata",
   "Title": "testdata",
-  "Description": "",
-  "Resources": []
+  "Description": "description",
+  "Resources": [
+    {
+      "Name": "GeoJSON source",
+      "Style": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/089822e83912ea644cf99a80d7760f783ae8804e/collections/GFC_Garissa_FloodExtent/style.json",
+      "Bbox": [
+        77.06505295007568,
+        -32.151281498203474,
+        153.85779122541607,
+        19.043877352023436
+      ],
+      "TimeEntries": [
+        {
+          "Time": "2025",
+          "Assets": [
+            {
+              "Identifier": "2025",
+              "File": "https://gist.githubusercontent.com/wavded/1200773/raw/e122cf709898c09758aecfef349964a8d73a83f3/sample.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
