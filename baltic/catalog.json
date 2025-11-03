@@ -12,11 +12,11 @@
     },
     {
       "rel": "child",
-      "href": "./Soil Moisture 04 Lithuania/collection.json",
+      "href": "./SAGRIS Waterlogging 04 Lithuania (2024)/collection.json",
       "type": "application/json",
-      "title": "Soil Moisture 04 Lithuania",
+      "title": "SAGRIS Waterlogging 04 Lithuania (2024)",
       "code": "sm_lt_04_high_medium_low",
-      "id": "Soil Moisture 04 Lithuania",
+      "id": "SAGRIS Waterlogging 04 Lithuania (2024)",
       "subcode": "sm_lt_04_high_medium_low",
       "themes": [
         "Flooding"
@@ -28,7 +28,7 @@
         "Sensorname"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/baltic-gtif/baltic-catalog/refs/heads/main//assets/sm_lt.png"
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png"
       ],
       "eodash:mapProjection": {
         "name": "EPSG:3035",
@@ -47,7 +47,7 @@
         "Crops Lodging"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/baltic-gtif/baltic-catalog/refs/heads/main//assets/ld_lt.png"
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/ld_lt.png"
       ],
       "eodash:mapProjection": {
         "name": "EPSG:3035",
@@ -56,18 +56,56 @@
     },
     {
       "rel": "child",
-      "href": "./Soil Moisture 09 Austria/collection.json",
+      "href": "./SAGRIS Waterlogging 09 Austria (2024)/collection.json",
       "type": "application/json",
-      "title": "Soil Moisture 09 Austria",
+      "title": "SAGRIS Waterlogging 09 Austria (2024)",
       "code": "sm_at_09_high_medium_low",
-      "id": "Soil Moisture 09 Austria",
+      "id": "SAGRIS Waterlogging 09 Austria (2024)",
       "subcode": "sm_at_09_high_medium_low",
       "themes": [
         "Flooding"
       ],
       "thumbnail": [
-        "https://raw.githubusercontent.com/baltic-gtif/baltic-catalog/refs/heads/main//assets/sm_at.png"
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_at.png"
       ],
+      "eodash:mapProjection": {
+        "name": "EPSG:3035",
+        "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./soc_lt/collection.json",
+      "type": "application/json",
+      "title": "Soil Organic Carbon (SOC) - Lithuania",
+      "id": "soc_lt",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./grassland_intensity_lt/collection.json",
+      "type": "application/json",
+      "title": "Species-Rich Grassland Management Lithuania",
+      "code": "grassland_intensity_lt",
+      "id": "grassland_intensity_lt",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
+      ],
+      "subcode": "grassland_intensity_lt"
+    },
+    {
+      "rel": "child",
+      "href": "./sm_lt_lat_est_2025_05_high_medium_low/collection.json",
+      "type": "application/json",
+      "title": "SAGRIS Waterlogging 05 Baltic States (2025)",
+      "code": "sm_lit_lat_est_2025_05_high_medium_low",
+      "id": "sm_lt_lat_est_2025_05_high_medium_low",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png"
+      ],
+      "subcode": "sm_lit_lat_est_2025_05_high_medium_low",
       "eodash:mapProjection": {
         "name": "EPSG:3035",
         "def": "+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs"
