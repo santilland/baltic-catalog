@@ -17,7 +17,7 @@ jobs:
             const prNumber = context.issue.number;
             const owner = context.repo.owner;
             const repo = context.repo.repo;
-            const previewUrl = `https://eodash.github.io/preview-instance/?stacEndpoint=https://catgen.hub-otc.eox.at/eoxhub-workspaces/${repo}/pull/${prNumber}/catalog.json`;
+            const previewUrl = `https://eodash.github.io/preview-instance/?stacEndpoint=https://catgen.hub-otc.eox.at/baltic-gtif/${repo}/pull/${prNumber}/catalog.json`;
             const body = `## PR Preview 🚀\n\n[Preview Link](${previewUrl})`;
             
             const { data: comments } = await github.rest.issues.listComments({
