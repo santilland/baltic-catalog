@@ -16,7 +16,10 @@
       "type": "application/json",
       "title": "SAGRIS Waterlogging mid-June Germany (2025)",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "sm_de_2025_06_parcels_wms_medium"
+      "id": "sm_de_2025_06_parcels_wms_medium",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png"
+      ]
     },
     {
       "rel": "xyz",

@@ -46,7 +46,10 @@
       "type": "application/json",
       "title": "Permanent Grassland  - Area Loss ",
       "endpointtype": "VectorTile source",
-      "id": "GEOMpgConversion2024to2025"
+      "id": "GEOMpgConversion2024to2025",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/lt_conversion_grassland.png"
+      ]
     },
     {
       "rel": "service",
@@ -133,8 +136,8 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "eodash:jsonform": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/jsonforms/conversion.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/chartdefs/vega_chart_conversion.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//jsonforms/conversion.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//chartdefs/vega_chart_conversion.json",
   "title": "Conversion of Permanent Grassland (Area of Loss and Gain)",
   "extent": {
     "spatial": {

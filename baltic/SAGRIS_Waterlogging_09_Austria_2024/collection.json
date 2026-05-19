@@ -19,6 +19,9 @@
       "id": "Soil_Moisture_high_parcels",
       "themes": [
         "Flooding"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_at.png"
       ]
     },
     {

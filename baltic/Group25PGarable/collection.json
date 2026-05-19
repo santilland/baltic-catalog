@@ -16,7 +16,10 @@
       "type": "application/json",
       "title": "Permanent Grassland LT - SOC",
       "endpointtype": "VectorTile source",
-      "id": "SOCindex"
+      "id": "SOCindex",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png"
+      ]
     },
     {
       "rel": "child",
@@ -24,7 +27,10 @@
       "type": "application/json",
       "title": "Arable LT - SOC",
       "endpointtype": "VectorTile source",
-      "id": "SOCarable"
+      "id": "SOCarable",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png"
+      ]
     },
     {
       "rel": "xyz",

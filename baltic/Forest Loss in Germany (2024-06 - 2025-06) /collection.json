@@ -16,7 +16,10 @@
       "type": "application/json",
       "title": "Forest Loss Coeficient Values",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "Forest Loss Coeficient Values"
+      "id": "Forest Loss Coeficient Values",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
     },
     {
       "rel": "child",
@@ -24,7 +27,10 @@
       "type": "application/json",
       "title": "Forest Loss Clear-cuts Points",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "Forest Loss Clear-cuts Points"
+      "id": "Forest Loss Clear-cuts Points",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
     },
     {
       "rel": "child",
@@ -32,7 +38,10 @@
       "type": "application/json",
       "title": "CORINE 2018 Forest Boundaries",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "CORINE 2018 Forest Boundaries"
+      "id": "CORINE 2018 Forest Boundaries",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
     },
     {
       "rel": "xyz",

@@ -19,6 +19,9 @@
       "id": "Crops_Lodging_parcels",
       "themes": [
         "Crops Lodging"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/ld_lt.png"
       ]
     },
     {

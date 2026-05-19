@@ -57,7 +57,10 @@
       "type": "application/json",
       "title": "PG LT - Habitat",
       "endpointtype": "VectorTile source",
-      "id": "habitat"
+      "id": "habitat",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
+      ]
     },
     {
       "rel": "child",
@@ -117,8 +120,8 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "eodash:jsonform": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/jsonforms/habitat.json",
-  "eodash:vegadefinition": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/chartdefs/vega_chart_habitat.json",
+  "eodash:jsonform": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//jsonforms/habitat.json",
+  "eodash:vegadefinition": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//chartdefs/vega_chart_habitat.json",
   "title": "Biodiversity of Permanent Grassland [PG]",
   "extent": {
     "spatial": {

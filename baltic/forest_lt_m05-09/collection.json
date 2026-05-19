@@ -16,7 +16,10 @@
       "type": "application/json",
       "title": "Forest Loss in 2024 09",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "forest_lt_09"
+      "id": "forest_lt_09",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
     },
     {
       "rel": "child",
@@ -24,7 +27,10 @@
       "type": "application/json",
       "title": "Forest Loss in 2024 08",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "forest_lit_08"
+      "id": "forest_lit_08",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
     },
     {
       "rel": "child",
@@ -32,7 +38,10 @@
       "type": "application/json",
       "title": "Forest Loss in 2024 07",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "forest_lt_07"
+      "id": "forest_lt_07",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
     },
     {
       "rel": "child",
@@ -40,7 +49,10 @@
       "type": "application/json",
       "title": "Forest Loss in 2024 06",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "forest_lit_06"
+      "id": "forest_lit_06",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
     },
     {
       "rel": "child",
@@ -48,7 +60,10 @@
       "type": "application/json",
       "title": "Forest Loss in 2024 05",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "forest_lit_05"
+      "id": "forest_lit_05",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
     },
     {
       "rel": "xyz",

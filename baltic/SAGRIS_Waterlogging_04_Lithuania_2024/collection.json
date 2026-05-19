@@ -20,6 +20,9 @@
       "themes": [
         "Flooding"
       ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png"
+      ],
       "tags": [
         "example tag"
       ],

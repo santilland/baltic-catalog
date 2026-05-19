@@ -16,7 +16,10 @@
       "type": "application/json",
       "title": "High Waterlogging - parcels",
       "endpointtype": "WMS_OverwriteTimes",
-      "id": "sm_lit_lat_est_2025_05_parcels_wms_high"
+      "id": "sm_lit_lat_est_2025_05_parcels_wms_high",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png"
+      ]
     },
     {
       "rel": "xyz",

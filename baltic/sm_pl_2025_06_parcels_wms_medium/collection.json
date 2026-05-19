@@ -19,6 +19,9 @@
       "id": "sm_pl_2025_06_parcels_wms_medium",
       "themes": [
         "Flooding"
+      ],
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/sm_lt.png"
       ]
     },
     {
