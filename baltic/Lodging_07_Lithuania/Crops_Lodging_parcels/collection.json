@@ -23,20 +23,49 @@
       ],
       "wms:tilesize": 256,
       "wms:version": "1.1.1",
-      "key": "4ea6b33b-2e16-4d31-80a4-109399a9715d",
+      "key": "4bdb1fc0-045a-457c-a5d8-f4378d75cf18",
       "proj:epsg": 3857
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Lodging 07 Lithuania"
+      "title": "Lodging Lithuania"
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/ld_lt.png",
   "themes": [
     "Crops Lodging"
   ],
+  "eox:colorlegend": {
+    "title": "Lodging legend",
+    "range": [
+      "#3c8bc0",
+      "#6aa3d8",
+      "#69c0d8",
+      "#1be5b5",
+      "#74fe5d",
+      "#c9ef34",
+      "#fbb938",
+      "#c92903",
+      "#7a0403",
+      "#020101"
+    ],
+    "domain": [
+      "0 - 5",
+      "5 - 10",
+      "10 - 15",
+      "15 - 20",
+      "20 - 25",
+      "25 - 30",
+      "30 - 40",
+      "40 - 60",
+      "60 - 80",
+      "80 - 100",
+      "NA"
+    ],
+    "scaleType": "categorical"
+  },
   "proj:epsg": 3857,
   "endpointtype": "WMS_OverwriteTimes",
   "title": "Crops Lodging - parcels",

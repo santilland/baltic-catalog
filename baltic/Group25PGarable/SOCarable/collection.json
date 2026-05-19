@@ -14,12 +14,12 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "SOC of Permanent Grassland and Arable - 2025"
+      "title": "SOC of Permanent Grassland and Arable"
     }
   ],
   "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png",
   "endpointtype": "VectorTile source",
-  "title": "Arable LT 2025 - SOC",
+  "title": "Arable LT - SOC",
   "extent": {
     "spatial": {
       "bbox": [

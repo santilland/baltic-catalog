@@ -93,7 +93,7 @@
   },
   "eodash:jsonform": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/jsonforms/single_point.json",
   "eodash:vegadefinition": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main/chartdefs/vegachart_lodging.json",
-  "title": "Lodging 07 Lithuania",
+  "title": "Lodging Lithuania",
   "extent": {
     "spatial": {
       "bbox": [

@@ -22,7 +22,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Habitat and Permanent Grassland "
+      "title": "Biodiversity of Permanent Grassland [PG]"
     }
   ],
   "endpointtype": "FlatGeobuf source",

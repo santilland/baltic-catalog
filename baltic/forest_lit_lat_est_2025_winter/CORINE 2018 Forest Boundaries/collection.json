@@ -1,0 +1,92 @@
+{
+  "type": "Collection",
+  "id": "CORINE 2018 Forest Boundaries",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "wms",
+      "href": "https://server1.landimage.info/geoserver/gwc/service/wms",
+      "type": "image/jpeg",
+      "title": "CORINE 2018 Forest Boundaries",
+      "wms:layers": [
+        "GTIFBaltic:CORINE_LIT_LAT_EST_2018_forests"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:tilesize": 256,
+      "wms:version": "1.1.1",
+      "key": "a53d6727-09ff-4952-beda-6c33f95ec96d",
+      "eodash:proj4_def": {
+        "name": "EPSG:3857"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Forest Loss In Baltic States 2025 winter"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
+  "eox:colorlegend": {
+    "range": [
+      "#20d210"
+    ],
+    "domain": [
+      "Forest Boundary"
+    ],
+    "scaleType": "categorical",
+    "markType": "rect"
+  },
+  "eodash:proj4_def": {
+    "name": "EPSG:3857"
+  },
+  "endpointtype": "WMS_OverwriteTimes",
+  "title": "CORINE 2018 Forest Boundaries",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          20.82877877559398,
+          53.12261804761748,
+          28.743479238252885,
+          59.68051271667771
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-10-01T00:00:00Z",
+          "2025-04-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

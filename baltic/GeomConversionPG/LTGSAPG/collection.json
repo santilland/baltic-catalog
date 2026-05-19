@@ -17,7 +17,6 @@
       "title": "Conversion of Permanent Grassland (Area of Loss and Gain)"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png",
   "endpointtype": "VectorTile source",
   "title": "Permanent Grassland Parcels",
   "extent": {
@@ -48,13 +47,6 @@
       "title": "GeoParquet Items",
       "roles": [
         "collection-mirror"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
       ]
     }
   }

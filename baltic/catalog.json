@@ -37,7 +37,7 @@
       "rel": "child",
       "href": "./Lodging_07_Lithuania/collection.json",
       "type": "application/json",
-      "title": "Lodging 07 Lithuania",
+      "title": "Lodging Lithuania",
       "id": "Lodging_07_Lithuania",
       "themes": [
         "Crops Lodging"
@@ -85,7 +85,7 @@
       "rel": "child",
       "href": "./Group25PGarable/collection.json",
       "type": "application/json",
-      "title": "SOC of Permanent Grassland and Arable - 2025",
+      "title": "SOC of Permanent Grassland and Arable",
       "id": "Group25PGarable",
       "thumbnail": [
         "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/soc_lt.png"
@@ -95,7 +95,7 @@
       "rel": "child",
       "href": "./habitat_pg_indicator/collection.json",
       "type": "application/json",
-      "title": "Habitat and Permanent Grassland ",
+      "title": "Biodiversity of Permanent Grassland [PG]",
       "id": "habitat_pg_indicator",
       "thumbnail": [
         "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
@@ -108,7 +108,7 @@
       "title": "Conversion of Permanent Grassland (Area of Loss and Gain)",
       "id": "GeomConversionPG",
       "thumbnail": [
-        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png"
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/lt_conversion_grassland.png"
       ]
     },
     {
@@ -145,6 +145,57 @@
       ],
       "thumbnail": [
         "https://workspace-ui-public.baltic-gtif.hub-otc.eox.at/api/public/share/public-4wazei3y-02/UHTM/iStock-1159485884.jpg"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./forest_lit_lat_est_2025_winter/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss In Baltic States 2025 winter",
+      "id": "forest_lit_lat_est_2025_winter",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ],
+      "eodash:mapProjection": "EPSG:3857"
+    },
+    {
+      "rel": "child",
+      "href": "./forest_lt_m05-09/collection.json",
+      "type": "application/json",
+      "title": "Forest Loss in Lithuania 2024 05-09",
+      "id": "forest_lt_m05-09",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Forest Loss in Poland (2024-06 - 2025-06) /collection.json",
+      "type": "application/json",
+      "title": "Forest Loss in Poland (2024-06 - 2025-06)",
+      "id": "Forest Loss in Poland (2024-06 - 2025-06) ",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
+      ],
+      "eodash:mapProjection": {
+        "name": "",
+        "def": "",
+        "extent": [
+          13.323205271117939,
+          48.08372833456975,
+          25.18572551492741,
+          55.149564275700854
+        ]
+      }
+    },
+    {
+      "rel": "child",
+      "href": "./Forest Loss in Germany (2024-06 - 2025-06) /collection.json",
+      "type": "application/json",
+      "title": "Forest Loss in Germany (2024-06 - 2025-06) ",
+      "id": "Forest Loss in Germany (2024-06 - 2025-06) ",
+      "thumbnail": [
+        "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png"
       ]
     },
     {

@@ -1,0 +1,103 @@
+{
+  "type": "Collection",
+  "id": "forest_lt_07",
+  "stac_version": "1.1.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Baltic GTIF Catalog"
+    },
+    {
+      "rel": "wms",
+      "href": "https://server1.landimage.info/geoserver/gwc/service/wms",
+      "type": "image/jpeg",
+      "title": "Forest Loss in 2024 07",
+      "wms:layers": [
+        "GTIFBaltic:LIT_2024_forest_cuts_m07"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:tilesize": 256,
+      "wms:version": "1.1.1",
+      "key": "16a5a4da-b5e4-4d44-b7c8-c2f0fa267cc2",
+      "eodash:proj4_def": {
+        "name": "EPSG:3857"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Forest Loss in Lithuania 2024 05-09"
+    }
+  ],
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
+  "eox:colorlegend": {
+    "title": "Tree Loss (%)",
+    "range": [
+      "#56b636",
+      "#a5da9f",
+      "#a5da9f",
+      "#ffd6bf",
+      "#fdae61",
+      "#d7191c"
+    ],
+    "domain": [
+      "0",
+      "1-5",
+      "6-10",
+      "11-20",
+      "21-50",
+      "> 50"
+    ],
+    "markType": "rect",
+    "scaleType": "categorical"
+  },
+  "eodash:proj4_def": {
+    "name": "EPSG:3857"
+  },
+  "endpointtype": "WMS_OverwriteTimes",
+  "title": "Forest Loss in 2024 07",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          20.346044679125463,
+          53.589205685662414,
+          27.228504818093356,
+          56.3666970177088
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-07-01T00:00:00Z",
+          "2024-07-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "assets": {
+    "geoparquet": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "GeoParquet Items",
+      "roles": [
+        "collection-mirror"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/forest_lt.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

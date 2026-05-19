@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./SOCindex/collection.json",
       "type": "application/json",
-      "title": "Permanent Grassland LT 2025 - SOC",
+      "title": "Permanent Grassland LT - SOC",
       "endpointtype": "VectorTile source",
       "id": "SOCindex"
     },
@@ -22,7 +22,7 @@
       "rel": "child",
       "href": "./SOCarable/collection.json",
       "type": "application/json",
-      "title": "Arable LT 2025 - SOC",
+      "title": "Arable LT - SOC",
       "endpointtype": "VectorTile source",
       "id": "SOCarable"
     },
@@ -69,7 +69,7 @@
       "title": "Baltic GTIF Catalog"
     }
   ],
-  "title": "SOC of Permanent Grassland and Arable - 2025",
+  "title": "SOC of Permanent Grassland and Arable",
   "extent": {
     "spatial": {
       "bbox": [

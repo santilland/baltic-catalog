@@ -17,7 +17,7 @@
       "title": "Conversion of Permanent Grassland (Area of Loss and Gain)"
     }
   ],
-  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png",
+  "thumbnail": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/lt_conversion_grassland.png",
   "endpointtype": "VectorTile source",
   "title": "Permanent Grassland  - Area Loss ",
   "extent": {
@@ -51,7 +51,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/grassland_lt.png",
+      "href": "https://raw.githubusercontent.com/baltic-gtif/assets/refs/heads/main//thumbnails/lt_conversion_grassland.png",
       "type": "image/png",
       "roles": [
         "thumbnail"
